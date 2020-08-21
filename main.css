@@ -173,6 +173,20 @@ body > .container-fluid{
   line-height: 32px;
 }
 
+.item {
+  max-height: 100vh;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.carousel,
+.carousel-inner {
+  height: 87vh;
+}
+
 #registration{
   background: #99cfe0;
 }
