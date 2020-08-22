@@ -350,7 +350,14 @@ body > .container-fluid{
     margin: 0 12%;
 }
 
-
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .schedule-wrap{
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+}
 
 
 
