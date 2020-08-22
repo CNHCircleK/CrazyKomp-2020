@@ -270,6 +270,8 @@ body > .container-fluid{
   color: white;
 }
 
+
+
 #games{
   background: var(--light-back);
 }
@@ -341,7 +343,7 @@ body > .container-fluid{
   background: #a6d1ee;
 }
 
-.schedule-warp{
+.schedule-wrap{
     padding-right:20px;
     padding-left:20px;
     padding: 20px 30px;
@@ -354,17 +356,13 @@ body > .container-fluid{
 .schedule-start{
   color: #ef6158;
   font-family: 'MyriadPro';
+  width: 150px;
 }
-.schedule-warp:hover {
+.schedule-wrap:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,.07);
     border: solid 1px black;
 }
-.schedule-warp{
-  width: 600px;
-  margin-bottom: 90px;
-  margin-left: 125px;
 
-}
 
 .schedule-tag{
     color:#fff;
@@ -465,8 +463,6 @@ body > .container-fluid{
 .carousel-indicators {
     bottom: -50px;
 }
-
-
 
 .carousel-control{
    text-align: center;
