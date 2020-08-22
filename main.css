@@ -347,7 +347,7 @@ body > .container-fluid{
     -webkit-transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
     transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
     max-width: 625px;
-    margin: 0 auto%;
+    margin: 0 11%;
 
 }
 
