@@ -357,10 +357,7 @@ body > .container-fluid{
   }
 }
 
-.col-lg-12{
-  padding-left: 0;
-  padding-right: 0;
-}
+
 
 .schedule-start{
   color: #ef6158;
