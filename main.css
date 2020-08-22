@@ -350,10 +350,11 @@ body > .container-fluid{
     margin: 0 12%;
 }
 
-@media only screen and (max-width: 600px) {
-body{
-  min-width: 400px;
-}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
 
 .col-lg-12{
