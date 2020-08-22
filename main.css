@@ -354,6 +354,9 @@ body > .container-fluid{
   body {
     margin: 0 auto;
     }
+  .schedule-tag{
+    width: 220px;
+  }
 }
 
 .col-lg-12{
