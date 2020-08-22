@@ -351,16 +351,14 @@ body > .container-fluid{
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    margin: 0 auto;
-    }
-  .schedule-tag{
-    width: 220px;
-  }
+body{
+  min-width: 400px;
+}
 }
 
 .col-lg-12{
   padding-left: 0;
+  padding-right: 0;
 }
 
 .schedule-start{
@@ -379,7 +377,7 @@ body > .container-fluid{
     background-color: #ef6158;
     padding:3px 8px;
     margin-right: 15px;
-    width: 220px;
+    width: 225px;
     font-family: 'MyriadPro';
     text-align: center;
 }
